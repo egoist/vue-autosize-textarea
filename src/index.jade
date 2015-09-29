@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    title Autosize Textarea Component for Vue.JS
+    style.
+      body {
+        font: 14px/1.4 Helvetica, serif;
+      }
+      .container {
+        max-width: 700px;
+        margin: auto;
+      }
+  body
+    .container
+      h1.sitename &lt;autosize-textarea&gt;&lt;/autosize-textarea&gt;
+      h2.slogan autosize for Vue.js
+
+      #app
+        autosize-textarea(rows="3" style="width:100%" value="some default value" resized="onResized")
+    script(src="./bundle.js?t=#{time}")
