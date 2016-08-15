@@ -1,3 +1,5 @@
+> This is component is deprecated, since it's simple enough to use [autosize](http://www.jacklmoore.com/autosize/) directly, see details: https://github.com/egoist/vue-autosize-textarea/issues/1
+
 # vue-autosize-textarea
 
 Vue.js port of [Autosize](https://github.com/jackmoore/autosize)
